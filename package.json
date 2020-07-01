@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "keyword": ["yongzhen","vue/cli","yz/vue-cli"],
+  "keyword": [
+    "yongzhen",
+    "vue/cli",
+    "yz/vue-cli"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "alpha": "vue-cli-service serve --mode alpha",
@@ -18,7 +22,8 @@
     "qs": "^6.9.4",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
-    "vuex": "^3.4.0"
+    "vuex": "^3.4.0",
+    "vuex-persist": "^2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
