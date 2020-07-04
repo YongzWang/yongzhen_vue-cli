@@ -1,18 +1,12 @@
 {
-  "name": "@yongzhen/vue-cli",
+  "name": "vue_admin",
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "keyword": [
-    "yongzhen",
-    "vue/cli",
-    "yz/vue-cli"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "alpha": "vue-cli-service serve --mode alpha",
-    "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name @yongzhen/vue-cli"
+    "build": "vue-cli-service build"
   },
   "dependencies": {
     "axios": "^0.19.2",

@@ -1,19 +1,24 @@
 # vuecli
 
-## Project setup
+## 安装
 ```
-npm install
+npm i
+
+# 推荐cnpm  
+```
+##配置
+已配置三种环境的请求，请求域名在.env文件中修改。
+```
+npm run serve;
+npm run alpha;
+npm run build;
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+默认已存在一些公共的样式名，详见@/assets/style/common.scss文件。
 
-### Compiles and minifies for production
-```
-npm run build
-```
+vue.config.js中设置dev环境的跨域处理（此时修改.env文件里边的baseUrl为本地的ip）
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+axios封装处理，请求建议在api文件夹下写。
+
+vuex已做长时间储存的配置。
+
